@@ -1,0 +1,76 @@
+KILN: how to run it on Windows (PowerShell)
+Folder used below: C:\Users\vikas\Desktop\kiln   (change it if yours is different)
+
+ONE-TIME SETUP
+--------------
+A. Database. Pick ONE:
+
+   Option 1: Neon (nothing to install, same database you will use on Render)
+     - Create a free project at neon.com, click Connect, copy the pooled connection string.
+     - Put it in .env as DATABASE_URL=postgresql://USER:PASSWORD@ep-xxxx-pooler....neon.tech/neondb?sslmode=require
+
+   Option 2: Postgres on your computer
+     - Install PostgreSQL from postgresql.org (or run it in Docker:
+         docker run -d --name kiln-db -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=kiln postgres:16 )
+     - Check the service is running:   Get-Service postgresql*
+     - Create the database:            createdb -U postgres kiln
+     - In .env:  DATABASE_URL=postgresql://postgres:postgres@localhost:5432/kiln
+
+B. The .env file (the old one has MONGO_URI; Kiln uses DATABASE_URL instead).
+   cd C:\Users\vikas\Desktop\kiln
+   if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+   (Get-Content .env) -replace '^AI_SERVICE_URL=.*','AI_SERVICE_URL=http://127.0.0.1:8000' -replace '^LLM_PROVIDER=.*','LLM_PROVIDER=ollama' -replace '^OLLAMA_MODEL=.*','OLLAMA_MODEL=llama3.2:1b' | Set-Content .env
+   Then open .env and make sure DATABASE_URL is set (delete the old MONGO_URI line).
+   Get-Content .env | Select-String "DATABASE_URL|LLM_PROVIDER|OLLAMA_MODEL"
+
+C. Language model (optional, free). If Ollama is not installed, get it from ollama.com, then:
+   ollama pull llama3.2:1b
+   ollama list                      (shows what is installed)
+   ollama stop llama3.2             (only if an older, bigger model is still loaded)
+
+
+FIRST RUN
+---------
+Window 1: AI service
+   cd C:\Users\vikas\Desktop\kiln\ai-service
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   uvicorn app.main:app --port 8000
+
+Window 2: API  (creates the tables on start)
+   cd C:\Users\vikas\Desktop\kiln\server
+   npm install
+   npm run seed          (loads courses, lessons, simulated learners; WIPES the database)
+   npm run dev           (wait until it says the model is ready)
+
+Window 3: website
+   cd C:\Users\vikas\Desktop\kiln\client
+   npm install
+   npm run dev           (open http://localhost:5173)
+
+Demo logins (password Demo@1234): student@kiln.dev, teacher@kiln.dev
+
+
+EVERY LATER RUN
+---------------
+Window 1:
+   cd C:\Users\vikas\Desktop\kiln\ai-service
+   .\.venv\Scripts\Activate.ps1
+   uvicorn app.main:app --port 8000
+
+Window 2:   (do NOT run "npm run seed" again unless you want to erase all data)
+   cd C:\Users\vikas\Desktop\kiln\server
+   npm run dev
+
+Window 3:
+   cd C:\Users\vikas\Desktop\kiln\client
+   npm run dev
+
+
+DEPLOY (Render + Neon)
+----------------------
+See README.md, section "Deploy on Render with Neon". Short version:
+   1. Push the folder to GitHub (the .env file is ignored on purpose).
+   2. Render > New > Blueprint > pick the repo.
+   3. Paste the Neon connection string when Render asks for DATABASE_URL.

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+ai-service/saved_models/*.joblib
+.DS_Store
+.venv/
+venv/
+client/dist/
+.env.*
+!.env.example

@@ -1,0 +1,140 @@
+[
+ {
+  "track": "python",
+  "slug": "python-course",
+  "title": "Python Foundations",
+  "description": "Learn Python from variables to classes and error handling.",
+  "order": 0,
+  "lessons": [
+   {
+    "slug": "python-basics",
+    "file": "python/python-basics.md",
+    "title": "Python basics: variables, types and loops",
+    "difficulty": 1,
+    "topics": [
+     "variables",
+     "types",
+     "loops"
+    ]
+   },
+   {
+    "slug": "python-functions-collections",
+    "file": "python/python-functions-collections.md",
+    "title": "Functions, lists and dictionaries",
+    "difficulty": 2,
+    "topics": [
+     "functions",
+     "lists",
+     "dictionaries",
+     "comprehensions"
+    ]
+   },
+   {
+    "slug": "python-oop-errors",
+    "file": "python/python-oop-errors.md",
+    "title": "Classes, exceptions and file handling",
+    "difficulty": 3,
+    "topics": [
+     "classes",
+     "exceptions",
+     "files",
+     "context managers"
+    ]
+   }
+  ]
+ },
+ {
+  "track": "web",
+  "slug": "web-course",
+  "title": "Full Stack Web Development",
+  "description": "From the browser to REST APIs and the MERN stack.",
+  "order": 1,
+  "lessons": [
+   {
+    "slug": "web-html-css-js",
+    "file": "web/web-html-css-js.md",
+    "title": "HTML, CSS and JavaScript fundamentals",
+    "difficulty": 1,
+    "topics": [
+     "html",
+     "css",
+     "javascript",
+     "dom"
+    ]
+   },
+   {
+    "slug": "web-http-rest",
+    "file": "web/web-http-rest.md",
+    "title": "HTTP and REST APIs",
+    "difficulty": 2,
+    "topics": [
+     "http",
+     "rest",
+     "json",
+     "status codes"
+    ]
+   },
+   {
+    "slug": "web-react-node-mongo",
+    "file": "web/web-react-node-mongo.md",
+    "title": "React, Node and MongoDB together",
+    "difficulty": 3,
+    "topics": [
+     "react",
+     "node",
+     "express",
+     "mongodb",
+     "jwt"
+    ]
+   }
+  ]
+ },
+ {
+  "track": "ml",
+  "slug": "ml-course",
+  "title": "Machine Learning and AI",
+  "description": "Supervised learning, evaluation, neural networks and RAG.",
+  "order": 2,
+  "lessons": [
+   {
+    "slug": "ml-supervised-basics",
+    "file": "ml/ml-supervised-basics.md",
+    "title": "Supervised learning: regression and classification",
+    "difficulty": 1,
+    "topics": [
+     "regression",
+     "classification",
+     "features",
+     "labels"
+    ]
+   },
+   {
+    "slug": "ml-evaluation-overfitting",
+    "file": "ml/ml-evaluation-overfitting.md",
+    "title": "Evaluation metrics and overfitting",
+    "difficulty": 2,
+    "topics": [
+     "accuracy",
+     "precision",
+     "recall",
+     "overfitting",
+     "cross-validation"
+    ]
+   },
+   {
+    "slug": "ml-neural-networks-llms",
+    "file": "ml/ml-neural-networks-llms.md",
+    "title": "Neural networks, LLMs and RAG",
+    "difficulty": 3,
+    "topics": [
+     "neural networks",
+     "gradient descent",
+     "transformers",
+     "llm",
+     "rag",
+     "embeddings"
+    ]
+   }
+  ]
+ }
+]

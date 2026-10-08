@@ -1,0 +1,810 @@
+[
+ {
+  "slug": "python-sum-of-evens",
+  "lesson": "python-basics",
+  "title": "Sum of evens",
+  "difficulty": 1,
+  "function": "sum_of_evens",
+  "prompt": "Write `sum_of_evens(numbers)` that returns the sum of the even integers in the list.\nReturn 0 when there are none.",
+  "starter": "def sum_of_evens(numbers):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     [
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    "expected": 6
+   },
+   {
+    "args": [
+     []
+    ],
+    "expected": 0
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     [
+      7,
+      9
+     ]
+    ],
+    "expected": 0
+   },
+   {
+    "args": [
+     [
+      2,
+      4,
+      6
+     ]
+    ],
+    "expected": 12
+   },
+   {
+    "args": [
+     [
+      -2,
+      -3,
+      10
+     ]
+    ],
+    "expected": 8
+   }
+  ],
+  "hints": [
+   "Loop over the numbers and keep a running total.",
+   "A number is even when `n % 2 == 0`. Negative numbers follow the same rule.",
+   "Start with `total = 0`, add `n` inside `if n % 2 == 0:`, and `return total` after the loop."
+  ]
+ },
+ {
+  "slug": "python-fizzbuzz",
+  "lesson": "python-basics",
+  "title": "FizzBuzz",
+  "difficulty": 1,
+  "function": "fizzbuzz",
+  "prompt": "Write `fizzbuzz(n)` that returns a list of strings for the numbers 1 to n.\nUse `\"Fizz\"` for multiples of 3, `\"Buzz\"` for multiples of 5, `\"FizzBuzz\"` for both, and the number as a string otherwise.\nReturn an empty list when n is 0.",
+  "starter": "def fizzbuzz(n):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     3
+    ],
+    "expected": [
+     "1",
+     "2",
+     "Fizz"
+    ]
+   },
+   {
+    "args": [
+     5
+    ],
+    "expected": [
+     "1",
+     "2",
+     "Fizz",
+     "4",
+     "Buzz"
+    ]
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     15
+    ],
+    "expected": [
+     "1",
+     "2",
+     "Fizz",
+     "4",
+     "Buzz",
+     "Fizz",
+     "7",
+     "8",
+     "Fizz",
+     "Buzz",
+     "11",
+     "Fizz",
+     "13",
+     "14",
+     "FizzBuzz"
+    ]
+   },
+   {
+    "args": [
+     0
+    ],
+    "expected": []
+   },
+   {
+    "args": [
+     1
+    ],
+    "expected": [
+     "1"
+    ]
+   }
+  ],
+  "hints": [
+   "Use a `for` loop over `range(1, n + 1)` and build a result list.",
+   "Check divisibility by both 3 and 5 first. If you check 3 first, 15 will be labelled \"Fizz\".",
+   "When no rule matches, append `str(i)`."
+  ]
+ },
+ {
+  "slug": "python-word-count",
+  "lesson": "python-functions-collections",
+  "title": "Word count",
+  "difficulty": 2,
+  "function": "word_count",
+  "prompt": "Write `word_count(text)` that returns a dictionary mapping each word to how many times it appears.\nWords are separated by whitespace and counting ignores case, so `\"The the\"` gives `{\"the\": 2}`.\nPunctuation is not special: treat it as part of the word.",
+  "starter": "def word_count(text):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     "a b a"
+    ],
+    "expected": {
+     "a": 2,
+     "b": 1
+    }
+   },
+   {
+    "args": [
+     "Hello hello"
+    ],
+    "expected": {
+     "hello": 2
+    }
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     ""
+    ],
+    "expected": {}
+   },
+   {
+    "args": [
+     "  spaced   out  "
+    ],
+    "expected": {
+     "spaced": 1,
+     "out": 1
+    }
+   },
+   {
+    "args": [
+     "The the THE cat"
+    ],
+    "expected": {
+     "the": 3,
+     "cat": 1
+    }
+   }
+  ],
+  "hints": [
+   "A dictionary maps each word to its count.",
+   "`text.lower().split()` gives lowercase words and copes with repeated spaces.",
+   "For each word use `counts[word] = counts.get(word, 0) + 1`."
+  ]
+ },
+ {
+  "slug": "python-squares-of-odds",
+  "lesson": "python-functions-collections",
+  "title": "Squares of odd numbers",
+  "difficulty": 2,
+  "function": "squares_of_odds",
+  "prompt": "Write `squares_of_odds(numbers)` that returns a list with the square of every odd number, in the original order.\nTry to do it with a list comprehension.",
+  "starter": "def squares_of_odds(numbers):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     [
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    ],
+    "expected": [
+     1,
+     9,
+     25
+    ]
+   },
+   {
+    "args": [
+     [
+      2,
+      4
+     ]
+    ],
+    "expected": []
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     []
+    ],
+    "expected": []
+   },
+   {
+    "args": [
+     [
+      -3,
+      -2,
+      7
+     ]
+    ],
+    "expected": [
+     9,
+     49
+    ]
+   },
+   {
+    "args": [
+     [
+      1,
+      1,
+      3
+     ]
+    ],
+    "expected": [
+     1,
+     1,
+     9
+    ]
+   }
+  ],
+  "hints": [
+   "A list comprehension looks like `[expression for item in items if condition]`.",
+   "An odd number has `n % 2 == 1` (this also works for negative numbers in Python).",
+   "The expression you want to keep is `n * n`."
+  ]
+ },
+ {
+  "slug": "python-parse-int",
+  "lesson": "python-oop-errors",
+  "title": "Safe integer parsing",
+  "difficulty": 3,
+  "function": "parse_int",
+  "prompt": "Write `parse_int(value)` that returns `int(value)`, or `None` if the value cannot be converted.\nIt must not raise: handle both bad text and values of the wrong type.",
+  "starter": "def parse_int(value):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     "42"
+    ],
+    "expected": 42
+   },
+   {
+    "args": [
+     "abc"
+    ],
+    "expected": null
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     ""
+    ],
+    "expected": null
+   },
+   {
+    "args": [
+     " 7 "
+    ],
+    "expected": 7
+   },
+   {
+    "args": [
+     null
+    ],
+    "expected": null
+   },
+   {
+    "args": [
+     "-5"
+    ],
+    "expected": -5
+   },
+   {
+    "args": [
+     "3.5"
+    ],
+    "expected": null
+   }
+  ],
+  "hints": [
+   "Wrap the conversion in `try` and handle the failure in `except`.",
+   "`int('abc')` raises ValueError and `int(None)` raises TypeError. Catch both with `except (ValueError, TypeError):`.",
+   "Return `int(value)` inside `try`, and `None` inside the `except` block."
+  ]
+ },
+ {
+  "slug": "web-slugify",
+  "lesson": "web-html-css-js",
+  "title": "Make a URL slug",
+  "difficulty": 1,
+  "function": "slugify",
+  "prompt": "Write `slugify(title)` that turns a title into a URL slug.\nLowercase the text, replace every run of characters that are not letters or digits with a single hyphen, and remove hyphens from both ends.",
+  "starter": "def slugify(title):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     "Hello World"
+    ],
+    "expected": "hello-world"
+   },
+   {
+    "args": [
+     "  Hi  there "
+    ],
+    "expected": "hi-there"
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     "C++ & Python!"
+    ],
+    "expected": "c-python"
+   },
+   {
+    "args": [
+     ""
+    ],
+    "expected": ""
+   },
+   {
+    "args": [
+     "Already-slugged_text"
+    ],
+    "expected": "already-slugged-text"
+   },
+   {
+    "args": [
+     "2024 Roadmap"
+    ],
+    "expected": "2024-roadmap"
+   }
+  ],
+  "hints": [
+   "Process the text one character at a time, or use the `re` module.",
+   "`re.sub(r'[^a-z0-9]+', '-', text)` replaces each run of other characters with one hyphen (remember `import re`).",
+   "Lowercase first, then use `.strip('-')` to remove hyphens at the ends."
+  ]
+ },
+ {
+  "slug": "web-status-category",
+  "lesson": "web-http-rest",
+  "title": "Classify an HTTP status code",
+  "difficulty": 2,
+  "function": "status_category",
+  "prompt": "Write `status_category(code)` that returns the class of an HTTP status code: `\"informational\"` (100-199), `\"success\"` (200-299), `\"redirect\"` (300-399), `\"client error\"` (400-499), `\"server error\"` (500-599), or `\"unknown\"` for anything else.",
+  "starter": "def status_category(code):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     200
+    ],
+    "expected": "success"
+   },
+   {
+    "args": [
+     404
+    ],
+    "expected": "client error"
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     503
+    ],
+    "expected": "server error"
+   },
+   {
+    "args": [
+     301
+    ],
+    "expected": "redirect"
+   },
+   {
+    "args": [
+     100
+    ],
+    "expected": "informational"
+   },
+   {
+    "args": [
+     99
+    ],
+    "expected": "unknown"
+   },
+   {
+    "args": [
+     600
+    ],
+    "expected": "unknown"
+   }
+  ],
+  "hints": [
+   "Compare the code against ranges, for example `200 <= code < 300`.",
+   "Check each range with `if` / `elif`, and finish with an `else` that returns \"unknown\".",
+   "Integer division helps too: `code // 100` is 2 for every 2xx code."
+  ]
+ },
+ {
+  "slug": "web-parse-query-string",
+  "lesson": "web-react-node-mongo",
+  "title": "Parse a query string",
+  "difficulty": 3,
+  "function": "parse_query_string",
+  "prompt": "Write `parse_query_string(query)` that turns `\"a=1&b=2\"` into `{\"a\": \"1\", \"b\": \"2\"}`.\nRules: an empty string gives `{}`; empty parts are skipped; a key without `=` gets the value `\"\"`; only the first `=` splits (so `token=abc==` keeps `abc==`); a repeated key keeps its last value.",
+  "starter": "def parse_query_string(query):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     "a=1&b=2"
+    ],
+    "expected": {
+     "a": "1",
+     "b": "2"
+    }
+   },
+   {
+    "args": [
+     ""
+    ],
+    "expected": {}
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     "a=&b=2"
+    ],
+    "expected": {
+     "a": "",
+     "b": "2"
+    }
+   },
+   {
+    "args": [
+     "x=1&x=2"
+    ],
+    "expected": {
+     "x": "2"
+    }
+   },
+   {
+    "args": [
+     "flag&a=1"
+    ],
+    "expected": {
+     "flag": "",
+     "a": "1"
+    }
+   },
+   {
+    "args": [
+     "token=abc==&&n=5"
+    ],
+    "expected": {
+     "token": "abc==",
+     "n": "5"
+    }
+   }
+  ],
+  "hints": [
+   "Split the string on `&` first, then split each part into a key and a value.",
+   "Use `part.split('=', 1)` so a value containing `=` stays in one piece, and skip empty parts.",
+   "If a part has no `=`, use an empty string as the value. Assigning to the same key again overrides the old value."
+  ]
+ },
+ {
+  "slug": "ml-mean-squared-error",
+  "lesson": "ml-supervised-basics",
+  "title": "Mean squared error",
+  "difficulty": 1,
+  "function": "mean_squared_error",
+  "prompt": "Write `mean_squared_error(y_true, y_pred)` that returns the average of the squared differences between true and predicted values.\nBoth lists have the same non-zero length.",
+  "starter": "def mean_squared_error(y_true, y_pred):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    "expected": 0.0
+   },
+   {
+    "args": [
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      4
+     ]
+    ],
+    "expected": 1.0
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     [
+      0,
+      0
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    "expected": 12.5
+   },
+   {
+    "args": [
+     [
+      5
+     ],
+     [
+      2
+     ]
+    ],
+    "expected": 9.0
+   },
+   {
+    "args": [
+     [
+      1.5,
+      2.5
+     ],
+     [
+      1.0,
+      3.0
+     ]
+    ],
+    "expected": 0.25
+   }
+  ],
+  "hints": [
+   "Compute the difference between each true and predicted pair.",
+   "`zip(y_true, y_pred)` lets you loop over both lists together.",
+   "Add up the squared differences and divide by the number of values."
+  ]
+ },
+ {
+  "slug": "ml-precision-recall",
+  "lesson": "ml-evaluation-overfitting",
+  "title": "Precision and recall",
+  "difficulty": 2,
+  "function": "precision_recall",
+  "prompt": "Write `precision_recall(y_true, y_pred)` for binary labels (1 is the positive class) and return the tuple `(precision, recall)`.\nprecision = TP / (TP + FP) and recall = TP / (TP + FN). When a denominator is 0, that value is `0.0`.",
+  "starter": "def precision_recall(y_true, y_pred):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     [
+      1,
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      1,
+      0,
+      1
+     ]
+    ],
+    "expected": [
+     0.6666666666666666,
+     0.6666666666666666
+    ]
+   },
+   {
+    "args": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "expected": [
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     [
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "expected": [
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "args": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "expected": [
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "args": [
+     [
+      1,
+      0,
+      0,
+      1
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ],
+    "expected": [
+     1.0,
+     0.5
+    ]
+   }
+  ],
+  "hints": [
+   "Loop over the pairs and count true positives (true 1, predicted 1), false positives (true 0, predicted 1) and false negatives (true 1, predicted 0).",
+   "precision = TP / (TP + FP) and recall = TP / (TP + FN).",
+   "Guard against dividing by zero: if a denominator is 0, return 0.0 for that value."
+  ]
+ },
+ {
+  "slug": "ml-cosine-similarity",
+  "lesson": "ml-neural-networks-llms",
+  "title": "Cosine similarity",
+  "difficulty": 3,
+  "function": "cosine_similarity",
+  "prompt": "Embeddings are compared by the angle between their vectors. Write `cosine_similarity(a, b)` = dot(a, b) / (|a| * |b|).\nReturn `0.0` if either vector has length zero.",
+  "starter": "import math\n\ndef cosine_similarity(a, b):\n    # your code here\n    pass\n",
+  "visibleTests": [
+   {
+    "args": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "expected": 0.0
+   },
+   {
+    "args": [
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    "expected": 1.0
+   }
+  ],
+  "hiddenTests": [
+   {
+    "args": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "expected": 0.0
+   },
+   {
+    "args": [
+     [
+      1,
+      0
+     ],
+     [
+      -1,
+      0
+     ]
+    ],
+    "expected": -1.0
+   },
+   {
+    "args": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "expected": 0.7071067811865476
+   },
+   {
+    "args": [
+     [
+      3,
+      4
+     ],
+     [
+      6,
+      8
+     ]
+    ],
+    "expected": 1.0
+   }
+  ],
+  "hints": [
+   "The dot product is the sum of `x * y` over matching positions.",
+   "A vector's length is `math.sqrt(sum(x * x for x in v))`.",
+   "Divide the dot product by the product of both lengths, and return 0.0 first if either length is 0."
+  ]
+ }
+]

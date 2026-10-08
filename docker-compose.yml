@@ -1,0 +1,59 @@
+# One command: docker compose up --build   (then open http://localhost:8080)
+# The first start creates the tables and loads the courses and simulated learners (AUTO_SEED=1).
+# To wipe and reload the demo data later: docker compose run --rm server npm run seed
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: kiln
+      POSTGRES_PASSWORD: kiln
+      POSTGRES_DB: kiln
+    volumes: [pg_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kiln -d kiln"]
+      interval: 3s
+      timeout: 3s
+      retries: 15
+
+  ai-service:
+    build: ./ai-service
+    environment:
+      SANDBOX_ENABLED: ${SANDBOX_ENABLED:-1}
+      SANDBOX_TOKEN: ${SANDBOX_TOKEN:-}
+
+  server:
+    build: ./server
+    depends_on:
+      postgres: { condition: service_healthy }
+      ai-service: { condition: service_started }
+    environment:
+      DATABASE_URL: postgresql://kiln:kiln@postgres:5432/kiln
+      DATABASE_SSL: "0"
+      AUTO_SEED: ${AUTO_SEED:-1}
+      AI_SERVICE_URL: http://ai-service:8000
+      CLIENT_ORIGIN: http://localhost:8080
+      DATA_DIR: /data
+      NODE_ENV: production
+      SANDBOX_TOKEN: ${SANDBOX_TOKEN:-}
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env}
+      LLM_PROVIDER: ${LLM_PROVIDER:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      QUIZ_USE_LLM: ${QUIZ_USE_LLM:-1}
+      # Ollama runs on the host machine, not inside Docker
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.2}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./data:/data:ro
+
+  client:
+    build: ./client
+    depends_on: [server]
+    ports: ["8080:80"]
+
+volumes:
+  pg_data:

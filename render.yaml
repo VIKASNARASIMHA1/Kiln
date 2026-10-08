@@ -1,0 +1,54 @@
+# Render Blueprint for Kiln. Database: Neon (Postgres). Nothing here needs a paid plan.
+#
+#   kiln     Node web service. Serves the React app AND the API (one URL, no CORS), creates the tables
+#            on start and loads the demo data the first time the database is empty.
+#   kiln-ai  Python web service (Docker) for predictions, recommendations and the code sandbox.
+#
+# Deploy: push this repo to GitHub > Render dashboard > New > Blueprint > pick the repo.
+# Render asks for DATABASE_URL: paste the Neon connection string (see README, "Deploy on Render with Neon").
+services:
+  - type: web
+    name: kiln
+    runtime: node
+    region: singapore            # keep this next to your Neon region (AWS Singapore = ap-southeast-1)
+    plan: free
+    buildCommand: cd client && npm ci --include=dev && npm run build && cd ../server && npm ci --omit=dev
+    startCommand: cd server && node src/index.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL        # Neon > Connect > pooled connection string
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: AUTO_SEED           # fills an empty database with courses, lessons and demo learners
+        value: "1"
+      - key: AI_SERVICE_URL      # private network address of kiln-ai (host:port)
+        fromService:
+          type: web
+          name: kiln-ai
+          property: hostport
+      - key: SANDBOX_TOKEN       # same secret on both services
+        fromService:
+          type: web
+          name: kiln-ai
+          envVarKey: SANDBOX_TOKEN
+      # Optional language model. Leave empty for demo mode, or add these in the dashboard:
+      #   LLM_PROVIDER=anthropic and ANTHROPIC_API_KEY=...   (Ollama only works on your own computer)
+
+  - type: web
+    name: kiln-ai
+    runtime: docker
+    region: singapore
+    plan: free
+    dockerfilePath: ./ai-service/Dockerfile
+    dockerContext: ./ai-service
+    healthCheckPath: /health
+    envVars:
+      - key: SANDBOX_ENABLED
+        value: "1"
+      - key: SANDBOX_TOKEN
+        generateValue: true

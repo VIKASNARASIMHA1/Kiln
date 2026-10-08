@@ -1,0 +1,317 @@
+{
+ "python-basics": [
+  {
+   "prompt": "In Python, where does the type live?",
+   "options": [
+    "In the variable name",
+    "In the value",
+    "In the file extension",
+    "In the interpreter version"
+   ],
+   "answer": 1,
+   "explanation": "Python is dynamically typed: names are just labels and each value carries its own type."
+  },
+  {
+   "prompt": "What does range(1, 6) produce?",
+   "options": [
+    "1 to 6 inclusive",
+    "1 to 5",
+    "0 to 5",
+    "0 to 6"
+   ],
+   "answer": 1,
+   "explanation": "range stops before its end value, so range(1, 6) yields 1, 2, 3, 4, 5."
+  },
+  {
+   "prompt": "Which error appears when blocks are indented inconsistently?",
+   "options": [
+    "TypeError",
+    "NameError",
+    "IndentationError",
+    "ValueError"
+   ],
+   "answer": 2,
+   "explanation": "Python uses indentation to define blocks, so inconsistent indentation raises IndentationError."
+  }
+ ],
+ "python-functions-collections": [
+  {
+   "prompt": "What does a function without a return statement give back?",
+   "options": [
+    "0",
+    "An empty string",
+    "None",
+    "It raises an error"
+   ],
+   "answer": 2,
+   "explanation": "Without return, a Python function returns None."
+  },
+  {
+   "prompt": "Why avoid a mutable default argument like def f(x=[])?",
+   "options": [
+    "It is a syntax error",
+    "The same list is shared across calls",
+    "It is slower to call",
+    "It cannot be changed"
+   ],
+   "answer": 1,
+   "explanation": "Default values are created once, so a mutable default is shared between calls and accumulates changes."
+  },
+  {
+   "prompt": "What does [n * n for n in range(3)] evaluate to?",
+   "options": [
+    "[1, 4, 9]",
+    "[0, 1, 4]",
+    "[0, 2, 4]",
+    "[0, 1, 2]"
+   ],
+   "answer": 1,
+   "explanation": "range(3) gives 0, 1, 2 and each is squared: 0, 1, 4."
+  }
+ ],
+ "python-oop-errors": [
+  {
+   "prompt": "What is the main benefit of using with open(...)?",
+   "options": [
+    "Faster reads",
+    "The file is closed automatically, even on errors",
+    "It encrypts the file",
+    "It allows binary mode"
+   ],
+   "answer": 1,
+   "explanation": "A context manager guarantees cleanup, so the file is closed even if an exception occurs."
+  },
+  {
+   "prompt": "What does self refer to inside a method?",
+   "options": [
+    "The class itself",
+    "The current instance",
+    "The parent class",
+    "The module"
+   ],
+   "answer": 1,
+   "explanation": "self is the instance the method was called on."
+  },
+  {
+   "prompt": "Which is better practice?",
+   "options": [
+    "except:",
+    "except Exception: pass",
+    "except ValueError:",
+    "Never using try"
+   ],
+   "answer": 2,
+   "explanation": "Catch the most specific exception you expect so unrelated bugs are not hidden."
+  }
+ ],
+ "web-html-css-js": [
+  {
+   "prompt": "Which technology controls how a page looks?",
+   "options": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "HTTP"
+   ],
+   "answer": 1,
+   "explanation": "CSS handles presentation; HTML is structure and JavaScript is behaviour."
+  },
+  {
+   "prompt": "What is the DOM?",
+   "options": [
+    "A CSS framework",
+    "A tree of objects representing the page",
+    "A database",
+    "A JavaScript compiler"
+   ],
+   "answer": 1,
+   "explanation": "The browser parses HTML into the DOM, which scripts can read and modify."
+  },
+  {
+   "prompt": "What does [1,2,3].map(n => n * 2) return?",
+   "options": [
+    "[1,2,3]",
+    "[2,4,6]",
+    "6",
+    "[2,3,4]"
+   ],
+   "answer": 1,
+   "explanation": "map applies the function to each element and returns a new array."
+  }
+ ],
+ "web-http-rest": [
+  {
+   "prompt": "Which method is normally used to create a new resource?",
+   "options": [
+    "GET",
+    "POST",
+    "DELETE",
+    "HEAD"
+   ],
+   "answer": 1,
+   "explanation": "POST submits data to create a resource; GET is for reading."
+  },
+  {
+   "prompt": "What does status code 404 mean?",
+   "options": [
+    "Server error",
+    "Unauthorized",
+    "Created",
+    "Not found"
+   ],
+   "answer": 3,
+   "explanation": "404 means the requested resource does not exist."
+  },
+  {
+   "prompt": "Where is an auth token commonly sent?",
+   "options": [
+    "In the URL path",
+    "In the Authorization header",
+    "In the HTML",
+    "In the CSS"
+   ],
+   "answer": 1,
+   "explanation": "Bearer tokens are sent in the Authorization header."
+  }
+ ],
+ "web-react-node-mongo": [
+  {
+   "prompt": "What triggers a React component to re-render?",
+   "options": [
+    "Editing the CSS file",
+    "A change in state or props",
+    "Opening dev tools",
+    "A page scroll"
+   ],
+   "answer": 1,
+   "explanation": "React re-renders a component when its state or props change."
+  },
+  {
+   "prompt": "What is Express middleware?",
+   "options": [
+    "A database",
+    "A function that runs before the route handler",
+    "A React hook",
+    "A CSS preprocessor"
+   ],
+   "answer": 1,
+   "explanation": "Middleware sits in the request pipeline, for example to authenticate or log."
+  },
+  {
+   "prompt": "How should passwords be stored?",
+   "options": [
+    "Plain text",
+    "Base64",
+    "Hashed with bcrypt",
+    "Inside the JWT"
+   ],
+   "answer": 2,
+   "explanation": "Passwords must be hashed with a slow, salted algorithm such as bcrypt."
+  }
+ ],
+ "ml-supervised-basics": [
+  {
+   "prompt": "Which task predicts a number?",
+   "options": [
+    "Classification",
+    "Regression",
+    "Clustering",
+    "Tokenisation"
+   ],
+   "answer": 1,
+   "explanation": "Regression predicts continuous values; classification predicts categories."
+  },
+  {
+   "prompt": "Why keep a separate test set?",
+   "options": [
+    "To train faster",
+    "To measure performance on unseen data",
+    "To reduce the features",
+    "To label the data"
+   ],
+   "answer": 1,
+   "explanation": "A test set estimates how the model generalises."
+  },
+  {
+   "prompt": "What does a random forest do?",
+   "options": [
+    "Averages many decision trees",
+    "Fits one straight line",
+    "Clusters data without labels",
+    "Compresses images"
+   ],
+   "answer": 0,
+   "explanation": "A random forest combines many trees, which reduces variance."
+  }
+ ],
+ "ml-evaluation-overfitting": [
+  {
+   "prompt": "When is accuracy a poor metric?",
+   "options": [
+    "When classes are imbalanced",
+    "When data is clean",
+    "When using a test set",
+    "When there are two features"
+   ],
+   "answer": 0,
+   "explanation": "If 95% of examples are one class, a model that always predicts it scores 95% accuracy without learning anything."
+  },
+  {
+   "prompt": "What does recall measure?",
+   "options": [
+    "Share of predicted positives that were correct",
+    "Share of real positives that were found",
+    "Training speed",
+    "Number of features"
+   ],
+   "answer": 1,
+   "explanation": "Recall is true positives divided by all actual positives."
+  },
+  {
+   "prompt": "Which sign suggests overfitting?",
+   "options": [
+    "Low training and test accuracy",
+    "High training accuracy, much lower test accuracy",
+    "Equal train and test accuracy",
+    "A very small dataset only"
+   ],
+   "answer": 1,
+   "explanation": "A large gap between training and test performance indicates memorisation."
+  }
+ ],
+ "ml-neural-networks-llms": [
+  {
+   "prompt": "What does gradient descent do?",
+   "options": [
+    "Collects data",
+    "Adjusts weights to reduce the loss",
+    "Splits the dataset",
+    "Tokenises text"
+   ],
+   "answer": 1,
+   "explanation": "It repeatedly moves the weights in the direction that lowers the loss."
+  },
+  {
+   "prompt": "What problem does RAG mainly address?",
+   "options": [
+    "Slow GPUs",
+    "LLMs answering without grounded, current facts",
+    "Image resolution",
+    "Database indexing"
+   ],
+   "answer": 1,
+   "explanation": "RAG supplies retrieved source passages so answers are grounded and citable."
+  },
+  {
+   "prompt": "What lets a transformer weigh other tokens in the context?",
+   "options": [
+    "Pooling",
+    "Attention",
+    "Dropout",
+    "Batching"
+   ],
+   "answer": 1,
+   "explanation": "The attention mechanism computes how much each token should attend to others."
+  }
+ ]
+}

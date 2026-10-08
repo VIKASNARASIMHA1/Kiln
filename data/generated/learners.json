@@ -1,0 +1,3482 @@
+[
+ {
+  "name": "Aarav Sharma",
+  "email": "aarav.sharma0@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 56.0,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 3,
+   "streakDays": 4,
+   "avgSessionMinutes": 22.1,
+   "daysSinceLastActive": 30,
+   "tutorQuestions": 4,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    117.7,
+    121.1,
+    115.8,
+    110.1,
+    114.9,
+    110.0,
+    121.0,
+    134.2,
+    99.6,
+    78.1,
+    63.0,
+    39.9
+   ]
+  }
+ },
+ {
+  "name": "Diya Iyer",
+  "email": "diya.iyer1@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 63.1,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 7,
+   "streakDays": 0,
+   "avgSessionMinutes": 17.4,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 4,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    96.5,
+    85.3,
+    93.5,
+    99.9,
+    78.7,
+    86.8,
+    71.5,
+    76.8,
+    60.3,
+    57.9,
+    37.0,
+    28.1
+   ]
+  }
+ },
+ {
+  "name": "Kabir Reddy",
+  "email": "kabir.reddy2@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 41.2,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 2,
+   "streakDays": 0,
+   "avgSessionMinutes": 21.0,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 5,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    86.0,
+    81.1,
+    56.4,
+    74.7,
+    78.1,
+    78.3,
+    60.4,
+    69.5,
+    53.9,
+    42.7,
+    39.9,
+    19.1
+   ]
+  }
+ },
+ {
+  "name": "Meera Kulkarni",
+  "email": "meera.kulkarni3@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 57.4,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 7,
+   "streakDays": 3,
+   "avgSessionMinutes": 34.3,
+   "daysSinceLastActive": 13,
+   "tutorQuestions": 3,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    113.3,
+    122.7,
+    108.2,
+    113.1,
+    115.5,
+    115.3,
+    102.6,
+    115.8,
+    128.9,
+    100.0,
+    124.3,
+    117.1
+   ]
+  }
+ },
+ {
+  "name": "Rohan Nair",
+  "email": "rohan.nair4@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 68.6,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 7,
+   "streakDays": 3,
+   "avgSessionMinutes": 40.1,
+   "daysSinceLastActive": 8,
+   "tutorQuestions": 12,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    125.8,
+    153.5,
+    142.4,
+    124.0,
+    138.0,
+    144.3,
+    137.9,
+    147.9,
+    141.7,
+    150.3,
+    159.3,
+    139.4
+   ]
+  }
+ },
+ {
+  "name": "Isha Patel",
+  "email": "isha.patel5@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 60.8,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 1,
+   "streakDays": 2,
+   "avgSessionMinutes": 18.7,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 0,
+   "hintRequests": 7,
+   "weeklyEngagement": [
+    71.8,
+    62.9,
+    66.5,
+    51.0,
+    54.8,
+    56.3,
+    65.0,
+    65.2,
+    38.2,
+    41.2,
+    53.3,
+    24.6
+   ]
+  }
+ },
+ {
+  "name": "Arjun Shetty",
+  "email": "arjun.shetty6@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 65.1,
+   "quizzesTaken": 12,
+   "lessonsCompleted": 3,
+   "streakDays": 10,
+   "avgSessionMinutes": 31.3,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 7,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    149.2,
+    155.4,
+    171.4,
+    168.2,
+    160.6,
+    162.7,
+    166.4,
+    186.6,
+    169.6,
+    173.3,
+    182.4,
+    180.2
+   ]
+  }
+ },
+ {
+  "name": "Ananya Rao",
+  "email": "ananya.rao7@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 61.8,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 7,
+   "streakDays": 7,
+   "avgSessionMinutes": 30.3,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 4,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    135.1,
+    127.4,
+    140.0,
+    137.2,
+    154.9,
+    151.3,
+    146.0,
+    154.5,
+    146.0,
+    161.4,
+    152.4,
+    159.8
+   ]
+  }
+ },
+ {
+  "name": "Vihaan Gowda",
+  "email": "vihaan.gowda8@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 58.2,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 4,
+   "streakDays": 3,
+   "avgSessionMinutes": 12.0,
+   "daysSinceLastActive": 19,
+   "tutorQuestions": 3,
+   "hintRequests": 7,
+   "weeklyEngagement": [
+    56.6,
+    70.7,
+    48.0,
+    42.3,
+    57.3,
+    49.0,
+    57.3,
+    75.8,
+    36.6,
+    28.7,
+    24.1,
+    15.5
+   ]
+  }
+ },
+ {
+  "name": "Sara Menon",
+  "email": "sara.menon9@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 55.5,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 3,
+   "streakDays": 5,
+   "avgSessionMinutes": 25.2,
+   "daysSinceLastActive": 6,
+   "tutorQuestions": 7,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    103.5,
+    102.9,
+    111.7,
+    109.6,
+    93.8,
+    103.1,
+    103.9,
+    92.8,
+    105.6,
+    94.2,
+    112.2,
+    104.1
+   ]
+  }
+ },
+ {
+  "name": "Neel Sharma",
+  "email": "neel.sharma10@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 63.8,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 5,
+   "streakDays": 5,
+   "avgSessionMinutes": 28.4,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 12,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    157.1,
+    153.0,
+    160.4,
+    144.2,
+    155.5,
+    173.1,
+    150.8,
+    183.2,
+    159.9,
+    187.6,
+    174.2,
+    193.1
+   ]
+  }
+ },
+ {
+  "name": "Tara Iyer",
+  "email": "tara.iyer11@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 43.3,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 3,
+   "streakDays": 2,
+   "avgSessionMinutes": 19.0,
+   "daysSinceLastActive": 9,
+   "tutorQuestions": 3,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    74.8,
+    56.0,
+    81.8,
+    81.6,
+    64.4,
+    60.3,
+    59.3,
+    49.1,
+    58.0,
+    33.3,
+    25.8,
+    13.4
+   ]
+  }
+ },
+ {
+  "name": "Dev Reddy",
+  "email": "dev.reddy12@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 61.4,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 1,
+   "streakDays": 4,
+   "avgSessionMinutes": 20.1,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 6,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    58.7,
+    49.6,
+    72.4,
+    55.7,
+    64.3,
+    52.2,
+    42.6,
+    43.7,
+    33.2,
+    28.3,
+    17.6,
+    10.6
+   ]
+  }
+ },
+ {
+  "name": "Riya Kulkarni",
+  "email": "riya.kulkarni13@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 68.9,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 3,
+   "streakDays": 3,
+   "avgSessionMinutes": 26.7,
+   "daysSinceLastActive": 10,
+   "tutorQuestions": 8,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    96.6,
+    102.3,
+    126.9,
+    103.7,
+    99.9,
+    113.8,
+    124.6,
+    96.0,
+    108.4,
+    104.2,
+    93.0,
+    117.9
+   ]
+  }
+ },
+ {
+  "name": "Aditya Nair",
+  "email": "aditya.nair14@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 65.7,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 5,
+   "streakDays": 3,
+   "avgSessionMinutes": 28.6,
+   "daysSinceLastActive": 7,
+   "tutorQuestions": 3,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    103.0,
+    103.6,
+    95.0,
+    106.7,
+    96.3,
+    99.9,
+    89.9,
+    88.4,
+    113.5,
+    94.7,
+    102.3,
+    98.7
+   ]
+  }
+ },
+ {
+  "name": "Kavya Patel",
+  "email": "kavya.patel15@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 48.1,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 2,
+   "streakDays": 1,
+   "avgSessionMinutes": 14.2,
+   "daysSinceLastActive": 11,
+   "tutorQuestions": 4,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    74.9,
+    72.4,
+    82.1,
+    71.0,
+    70.7,
+    70.7,
+    80.5,
+    73.8,
+    69.0,
+    57.8,
+    47.9,
+    69.4
+   ]
+  }
+ },
+ {
+  "name": "Yash Shetty",
+  "email": "yash.shetty16@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 86.5,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 7,
+   "streakDays": 9,
+   "avgSessionMinutes": 29.7,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 6,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    163.4,
+    154.8,
+    164.2,
+    169.1,
+    172.1,
+    175.5,
+    164.2,
+    186.4,
+    161.3,
+    184.9,
+    183.7,
+    190.0
+   ]
+  }
+ },
+ {
+  "name": "Nisha Rao",
+  "email": "nisha.rao17@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 50.2,
+   "quizzesTaken": 2,
+   "lessonsCompleted": 1,
+   "streakDays": 1,
+   "avgSessionMinutes": 10.0,
+   "daysSinceLastActive": 32,
+   "tutorQuestions": 2,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    74.2,
+    67.1,
+    37.7,
+    29.1,
+    51.1,
+    29.6,
+    36.6,
+    42.0,
+    12.0,
+    4.2,
+    13.3,
+    6.8
+   ]
+  }
+ },
+ {
+  "name": "Karan Gowda",
+  "email": "karan.gowda18@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 64.4,
+   "quizzesTaken": 12,
+   "lessonsCompleted": 10,
+   "streakDays": 4,
+   "avgSessionMinutes": 41.0,
+   "daysSinceLastActive": 8,
+   "tutorQuestions": 5,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    133.9,
+    138.2,
+    130.7,
+    125.7,
+    140.7,
+    134.1,
+    128.9,
+    151.9,
+    147.8,
+    154.0,
+    141.5,
+    146.3
+   ]
+  }
+ },
+ {
+  "name": "Pooja Menon",
+  "email": "pooja.menon19@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 64.8,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 3,
+   "streakDays": 7,
+   "avgSessionMinutes": 43.3,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 8,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    138.6,
+    141.9,
+    154.9,
+    147.4,
+    161.0,
+    163.0,
+    182.1,
+    150.1,
+    175.1,
+    167.5,
+    170.5,
+    158.3
+   ]
+  }
+ },
+ {
+  "name": "Aarav Sharma",
+  "email": "aarav.sharma20@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 73.5,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 10,
+   "streakDays": 11,
+   "avgSessionMinutes": 32.3,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 9,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    135.6,
+    149.3,
+    142.8,
+    146.2,
+    144.2,
+    160.3,
+    150.3,
+    130.2,
+    147.1,
+    136.0,
+    124.9,
+    153.8
+   ]
+  }
+ },
+ {
+  "name": "Diya Iyer",
+  "email": "diya.iyer21@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 48.8,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 5,
+   "streakDays": 2,
+   "avgSessionMinutes": 27.8,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 7,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    95.8,
+    81.3,
+    67.6,
+    68.3,
+    87.4,
+    76.1,
+    73.5,
+    70.9,
+    60.1,
+    51.6,
+    35.8,
+    21.3
+   ]
+  }
+ },
+ {
+  "name": "Kabir Reddy",
+  "email": "kabir.reddy22@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 51.4,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 6,
+   "streakDays": 1,
+   "avgSessionMinutes": 23.4,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 5,
+   "hintRequests": 7,
+   "weeklyEngagement": [
+    91.1,
+    106.2,
+    93.7,
+    111.0,
+    86.9,
+    97.7,
+    98.5,
+    84.9,
+    114.9,
+    111.8,
+    92.0,
+    103.9
+   ]
+  }
+ },
+ {
+  "name": "Meera Kulkarni",
+  "email": "meera.kulkarni23@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 68.8,
+   "quizzesTaken": 11,
+   "lessonsCompleted": 1,
+   "streakDays": 2,
+   "avgSessionMinutes": 38.0,
+   "daysSinceLastActive": 23,
+   "tutorQuestions": 3,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    119.5,
+    89.9,
+    118.9,
+    116.1,
+    117.9,
+    106.6,
+    115.0,
+    116.2,
+    111.5,
+    82.5,
+    59.0,
+    42.5
+   ]
+  }
+ },
+ {
+  "name": "Rohan Nair",
+  "email": "rohan.nair24@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 55.1,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 4,
+   "streakDays": 1,
+   "avgSessionMinutes": 19.6,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 4,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    61.2,
+    60.4,
+    43.6,
+    75.0,
+    66.5,
+    63.6,
+    58.6,
+    50.5,
+    49.1,
+    42.0,
+    40.0,
+    40.1
+   ]
+  }
+ },
+ {
+  "name": "Isha Patel",
+  "email": "isha.patel25@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 60.8,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 8,
+   "streakDays": 7,
+   "avgSessionMinutes": 37.7,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 7,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    176.9,
+    170.3,
+    167.1,
+    164.8,
+    167.2,
+    192.6,
+    184.6,
+    183.1,
+    182.0,
+    177.3,
+    190.7,
+    203.0
+   ]
+  }
+ },
+ {
+  "name": "Arjun Shetty",
+  "email": "arjun.shetty26@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 79.2,
+   "quizzesTaken": 16,
+   "lessonsCompleted": 6,
+   "streakDays": 4,
+   "avgSessionMinutes": 36.8,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 3,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    124.0,
+    126.7,
+    127.7,
+    132.1,
+    116.1,
+    130.7,
+    125.5,
+    143.9,
+    128.4,
+    142.9,
+    153.4,
+    136.0
+   ]
+  }
+ },
+ {
+  "name": "Ananya Rao",
+  "email": "ananya.rao27@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 55.8,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 12,
+   "streakDays": 3,
+   "avgSessionMinutes": 26.6,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 5,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    119.1,
+    127.9,
+    126.9,
+    117.8,
+    133.2,
+    149.6,
+    127.8,
+    129.2,
+    121.6,
+    136.1,
+    121.3,
+    123.6
+   ]
+  }
+ },
+ {
+  "name": "Vihaan Gowda",
+  "email": "vihaan.gowda28@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 67.4,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 5,
+   "streakDays": 2,
+   "avgSessionMinutes": 20.1,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 5,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    115.7,
+    93.5,
+    113.0,
+    117.0,
+    103.9,
+    106.5,
+    120.1,
+    98.2,
+    93.8,
+    85.8,
+    99.3,
+    113.3
+   ]
+  }
+ },
+ {
+  "name": "Sara Menon",
+  "email": "sara.menon29@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 58.5,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 9,
+   "streakDays": 4,
+   "avgSessionMinutes": 24.2,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 4,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    141.3,
+    123.6,
+    125.7,
+    130.4,
+    139.6,
+    135.9,
+    141.3,
+    143.4,
+    138.7,
+    142.5,
+    146.2,
+    144.6
+   ]
+  }
+ },
+ {
+  "name": "Neel Sharma",
+  "email": "neel.sharma30@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 54.1,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 0,
+   "streakDays": 2,
+   "avgSessionMinutes": 14.3,
+   "daysSinceLastActive": 8,
+   "tutorQuestions": 1,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    56.2,
+    66.5,
+    50.4,
+    41.7,
+    20.9,
+    38.3,
+    11.5,
+    13.6,
+    28.1,
+    18.9,
+    8.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "Tara Iyer",
+  "email": "tara.iyer31@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 61.5,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 9,
+   "streakDays": 3,
+   "avgSessionMinutes": 27.7,
+   "daysSinceLastActive": 22,
+   "tutorQuestions": 4,
+   "hintRequests": 7,
+   "weeklyEngagement": [
+    108.3,
+    105.3,
+    118.6,
+    134.9,
+    114.6,
+    104.8,
+    101.0,
+    112.3,
+    95.2,
+    68.6,
+    56.7,
+    32.2
+   ]
+  }
+ },
+ {
+  "name": "Dev Reddy",
+  "email": "dev.reddy32@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 69.3,
+   "quizzesTaken": 11,
+   "lessonsCompleted": 11,
+   "streakDays": 10,
+   "avgSessionMinutes": 40.6,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 9,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    175.4,
+    178.0,
+    181.3,
+    168.8,
+    181.8,
+    178.4,
+    179.0,
+    182.6,
+    176.1,
+    177.7,
+    203.2,
+    196.5
+   ]
+  }
+ },
+ {
+  "name": "Riya Kulkarni",
+  "email": "riya.kulkarni33@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 77.7,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 4,
+   "streakDays": 7,
+   "avgSessionMinutes": 34.2,
+   "daysSinceLastActive": 9,
+   "tutorQuestions": 7,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    149.0,
+    158.9,
+    133.7,
+    145.3,
+    157.0,
+    161.3,
+    155.7,
+    171.8,
+    165.8,
+    153.6,
+    158.6,
+    178.0
+   ]
+  }
+ },
+ {
+  "name": "Aditya Nair",
+  "email": "aditya.nair34@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 56.6,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 2,
+   "streakDays": 1,
+   "avgSessionMinutes": 32.5,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 4,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    100.2,
+    75.8,
+    107.4,
+    99.1,
+    105.8,
+    87.7,
+    87.7,
+    78.6,
+    97.9,
+    58.4,
+    51.2,
+    25.3
+   ]
+  }
+ },
+ {
+  "name": "Kavya Patel",
+  "email": "kavya.patel35@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 85.0,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 7,
+   "streakDays": 1,
+   "avgSessionMinutes": 29.4,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 7,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    129.2,
+    111.9,
+    125.8,
+    140.4,
+    119.1,
+    143.3,
+    137.0,
+    124.2,
+    130.6,
+    132.0,
+    137.1,
+    133.3
+   ]
+  }
+ },
+ {
+  "name": "Yash Shetty",
+  "email": "yash.shetty36@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 77.7,
+   "quizzesTaken": 11,
+   "lessonsCompleted": 7,
+   "streakDays": 3,
+   "avgSessionMinutes": 22.0,
+   "daysSinceLastActive": 6,
+   "tutorQuestions": 10,
+   "hintRequests": 0,
+   "weeklyEngagement": [
+    97.1,
+    102.1,
+    94.6,
+    91.7,
+    103.8,
+    112.9,
+    88.5,
+    103.6,
+    96.8,
+    93.2,
+    111.3,
+    97.3
+   ]
+  }
+ },
+ {
+  "name": "Nisha Rao",
+  "email": "nisha.rao37@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 64.5,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 7,
+   "streakDays": 7,
+   "avgSessionMinutes": 32.6,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 6,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    115.6,
+    92.3,
+    103.4,
+    96.7,
+    90.9,
+    103.8,
+    95.8,
+    102.9,
+    95.8,
+    84.9,
+    94.2,
+    95.2
+   ]
+  }
+ },
+ {
+  "name": "Karan Gowda",
+  "email": "karan.gowda38@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 67.7,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 3,
+   "streakDays": 2,
+   "avgSessionMinutes": 40.0,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 4,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    135.4,
+    117.6,
+    127.2,
+    111.3,
+    135.9,
+    119.5,
+    113.1,
+    131.5,
+    144.1,
+    118.7,
+    123.9,
+    128.3
+   ]
+  }
+ },
+ {
+  "name": "Pooja Menon",
+  "email": "pooja.menon39@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 63.3,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 1,
+   "streakDays": 2,
+   "avgSessionMinutes": 22.7,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 6,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    71.5,
+    85.0,
+    71.6,
+    70.9,
+    82.4,
+    67.4,
+    77.8,
+    62.2,
+    49.8,
+    34.1,
+    42.6,
+    19.7
+   ]
+  }
+ },
+ {
+  "name": "Aarav Sharma",
+  "email": "aarav.sharma40@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 54.7,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 4,
+   "streakDays": 0,
+   "avgSessionMinutes": 9.8,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 2,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    83.6,
+    79.2,
+    79.4,
+    76.7,
+    93.6,
+    62.5,
+    55.6,
+    59.4,
+    46.7,
+    49.8,
+    36.1,
+    16.9
+   ]
+  }
+ },
+ {
+  "name": "Diya Iyer",
+  "email": "diya.iyer41@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 63.1,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 12,
+   "streakDays": 4,
+   "avgSessionMinutes": 27.9,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 4,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    112.1,
+    123.4,
+    141.8,
+    100.6,
+    135.0,
+    119.9,
+    141.9,
+    121.7,
+    130.5,
+    119.2,
+    125.4,
+    150.0
+   ]
+  }
+ },
+ {
+  "name": "Kabir Reddy",
+  "email": "kabir.reddy42@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 68.0,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 4,
+   "streakDays": 2,
+   "avgSessionMinutes": 35.0,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 5,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    133.6,
+    122.2,
+    118.4,
+    109.0,
+    124.9,
+    129.4,
+    129.8,
+    130.6,
+    121.2,
+    132.6,
+    133.7,
+    147.9
+   ]
+  }
+ },
+ {
+  "name": "Meera Kulkarni",
+  "email": "meera.kulkarni43@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 42.1,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 2,
+   "streakDays": 0,
+   "avgSessionMinutes": 21.6,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 2,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    104.8,
+    83.4,
+    75.8,
+    81.4,
+    74.6,
+    71.9,
+    77.4,
+    66.2,
+    69.6,
+    49.2,
+    37.2,
+    21.9
+   ]
+  }
+ },
+ {
+  "name": "Rohan Nair",
+  "email": "rohan.nair44@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 65.5,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 5,
+   "streakDays": 4,
+   "avgSessionMinutes": 40.2,
+   "daysSinceLastActive": 14,
+   "tutorQuestions": 7,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    116.4,
+    115.0,
+    122.9,
+    120.5,
+    129.1,
+    127.5,
+    114.7,
+    129.8,
+    116.5,
+    124.5,
+    128.5,
+    111.5
+   ]
+  }
+ },
+ {
+  "name": "Isha Patel",
+  "email": "isha.patel45@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 49.8,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 3,
+   "streakDays": 2,
+   "avgSessionMinutes": 17.0,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 4,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    101.8,
+    101.9,
+    98.3,
+    95.1,
+    95.1,
+    88.6,
+    95.1,
+    91.8,
+    97.7,
+    84.2,
+    98.1,
+    96.7
+   ]
+  }
+ },
+ {
+  "name": "Arjun Shetty",
+  "email": "arjun.shetty46@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 67.5,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 7,
+   "streakDays": 8,
+   "avgSessionMinutes": 39.4,
+   "daysSinceLastActive": 16,
+   "tutorQuestions": 10,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    139.7,
+    138.6,
+    150.2,
+    129.9,
+    152.9,
+    152.5,
+    154.7,
+    157.5,
+    127.4,
+    104.5,
+    82.0,
+    52.2
+   ]
+  }
+ },
+ {
+  "name": "Ananya Rao",
+  "email": "ananya.rao47@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 65.6,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 2,
+   "streakDays": 4,
+   "avgSessionMinutes": 30.2,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 6,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    137.7,
+    122.0,
+    144.0,
+    151.8,
+    151.6,
+    145.3,
+    128.9,
+    155.3,
+    145.9,
+    123.5,
+    154.1,
+    136.9
+   ]
+  }
+ },
+ {
+  "name": "Vihaan Gowda",
+  "email": "vihaan.gowda48@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 57.7,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 5,
+   "streakDays": 3,
+   "avgSessionMinutes": 34.7,
+   "daysSinceLastActive": 11,
+   "tutorQuestions": 4,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    93.9,
+    100.4,
+    119.3,
+    102.7,
+    108.9,
+    123.5,
+    121.8,
+    104.6,
+    88.2,
+    62.7,
+    48.7,
+    34.5
+   ]
+  }
+ },
+ {
+  "name": "Sara Menon",
+  "email": "sara.menon49@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 65.5,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 9,
+   "streakDays": 2,
+   "avgSessionMinutes": 30.4,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 5,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    127.4,
+    125.3,
+    134.9,
+    118.0,
+    125.9,
+    134.5,
+    133.8,
+    139.5,
+    114.3,
+    86.0,
+    66.8,
+    38.5
+   ]
+  }
+ },
+ {
+  "name": "Neel Sharma",
+  "email": "neel.sharma50@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 69.3,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 3,
+   "streakDays": 1,
+   "avgSessionMinutes": 30.5,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 1,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    81.0,
+    102.5,
+    95.4,
+    98.4,
+    77.6,
+    90.2,
+    87.1,
+    83.8,
+    69.1,
+    87.6,
+    99.2,
+    93.3
+   ]
+  }
+ },
+ {
+  "name": "Tara Iyer",
+  "email": "tara.iyer51@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 54.9,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 2,
+   "streakDays": 1,
+   "avgSessionMinutes": 16.9,
+   "daysSinceLastActive": 13,
+   "tutorQuestions": 2,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    77.2,
+    81.5,
+    87.7,
+    51.0,
+    75.8,
+    81.0,
+    80.8,
+    89.5,
+    82.3,
+    72.6,
+    70.9,
+    74.2
+   ]
+  }
+ },
+ {
+  "name": "Dev Reddy",
+  "email": "dev.reddy52@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 72.0,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 6,
+   "streakDays": 8,
+   "avgSessionMinutes": 34.8,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 10,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    167.6,
+    176.2,
+    189.3,
+    203.4,
+    185.9,
+    190.6,
+    196.6,
+    211.7,
+    201.5,
+    220.1,
+    199.4,
+    210.8
+   ]
+  }
+ },
+ {
+  "name": "Riya Kulkarni",
+  "email": "riya.kulkarni53@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 59.7,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 6,
+   "streakDays": 3,
+   "avgSessionMinutes": 20.9,
+   "daysSinceLastActive": 9,
+   "tutorQuestions": 3,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    108.2,
+    118.0,
+    120.6,
+    95.1,
+    101.0,
+    113.6,
+    103.6,
+    95.0,
+    120.6,
+    115.2,
+    115.2,
+    105.5
+   ]
+  }
+ },
+ {
+  "name": "Aditya Nair",
+  "email": "aditya.nair54@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 47.3,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 2,
+   "streakDays": 4,
+   "avgSessionMinutes": 18.6,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 4,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    99.3,
+    85.4,
+    97.5,
+    76.2,
+    75.6,
+    85.0,
+    74.7,
+    87.3,
+    82.0,
+    68.9,
+    77.7,
+    72.2
+   ]
+  }
+ },
+ {
+  "name": "Kavya Patel",
+  "email": "kavya.patel55@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 53.4,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 6,
+   "streakDays": 0,
+   "avgSessionMinutes": 22.0,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 4,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    121.6,
+    106.2,
+    108.3,
+    124.9,
+    135.3,
+    133.1,
+    113.9,
+    115.6,
+    128.8,
+    112.4,
+    104.0,
+    115.1
+   ]
+  }
+ },
+ {
+  "name": "Yash Shetty",
+  "email": "yash.shetty56@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 85.2,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 9,
+   "streakDays": 6,
+   "avgSessionMinutes": 36.6,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 3,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    122.2,
+    109.9,
+    102.1,
+    104.7,
+    126.1,
+    112.3,
+    118.9,
+    122.9,
+    127.4,
+    118.3,
+    127.1,
+    113.7
+   ]
+  }
+ },
+ {
+  "name": "Nisha Rao",
+  "email": "nisha.rao57@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 47.7,
+   "quizzesTaken": 2,
+   "lessonsCompleted": 0,
+   "streakDays": 4,
+   "avgSessionMinutes": 27.9,
+   "daysSinceLastActive": 7,
+   "tutorQuestions": 6,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    76.0,
+    67.6,
+    87.5,
+    74.1,
+    65.3,
+    67.4,
+    67.0,
+    74.5,
+    49.8,
+    53.6,
+    58.5,
+    85.8
+   ]
+  }
+ },
+ {
+  "name": "Karan Gowda",
+  "email": "karan.gowda58@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 47.5,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 6,
+   "streakDays": 3,
+   "avgSessionMinutes": 19.3,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 4,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    80.3,
+    67.4,
+    73.4,
+    84.6,
+    59.5,
+    55.9,
+    69.4,
+    60.0,
+    51.0,
+    30.8,
+    33.5,
+    20.0
+   ]
+  }
+ },
+ {
+  "name": "Pooja Menon",
+  "email": "pooja.menon59@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 52.9,
+   "quizzesTaken": 1,
+   "lessonsCompleted": 3,
+   "streakDays": 0,
+   "avgSessionMinutes": 8.2,
+   "daysSinceLastActive": 29,
+   "tutorQuestions": 1,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    63.3,
+    61.5,
+    31.4,
+    55.1,
+    43.8,
+    47.1,
+    46.6,
+    33.4,
+    14.4,
+    23.3,
+    10.1,
+    6.8
+   ]
+  }
+ },
+ {
+  "name": "Aarav Sharma",
+  "email": "aarav.sharma60@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 52.8,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 2,
+   "streakDays": 2,
+   "avgSessionMinutes": 20.7,
+   "daysSinceLastActive": 9,
+   "tutorQuestions": 3,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    79.8,
+    81.0,
+    60.0,
+    93.8,
+    82.8,
+    90.0,
+    97.3,
+    76.4,
+    56.7,
+    64.4,
+    59.9,
+    65.6
+   ]
+  }
+ },
+ {
+  "name": "Diya Iyer",
+  "email": "diya.iyer61@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 57.6,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 2,
+   "streakDays": 4,
+   "avgSessionMinutes": 20.0,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 1,
+   "hintRequests": 8,
+   "weeklyEngagement": [
+    97.3,
+    75.8,
+    98.4,
+    79.1,
+    96.5,
+    91.6,
+    88.8,
+    90.4,
+    85.0,
+    83.5,
+    72.0,
+    87.8
+   ]
+  }
+ },
+ {
+  "name": "Kabir Reddy",
+  "email": "kabir.reddy62@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 53.8,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 2,
+   "streakDays": 1,
+   "avgSessionMinutes": 25.3,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 1,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    84.6,
+    83.4,
+    74.3,
+    65.7,
+    49.3,
+    68.0,
+    50.5,
+    47.9,
+    36.9,
+    30.1,
+    18.2,
+    11.9
+   ]
+  }
+ },
+ {
+  "name": "Meera Kulkarni",
+  "email": "meera.kulkarni63@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 44.4,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 3,
+   "streakDays": 0,
+   "avgSessionMinutes": 16.7,
+   "daysSinceLastActive": 10,
+   "tutorQuestions": 2,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    48.2,
+    52.4,
+    76.0,
+    49.6,
+    45.0,
+    49.8,
+    48.6,
+    27.5,
+    28.8,
+    28.4,
+    16.2,
+    8.9
+   ]
+  }
+ },
+ {
+  "name": "Rohan Nair",
+  "email": "rohan.nair64@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 82.5,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 4,
+   "streakDays": 4,
+   "avgSessionMinutes": 30.5,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 5,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    125.8,
+    103.5,
+    111.1,
+    105.1,
+    125.2,
+    90.8,
+    103.6,
+    105.1,
+    100.2,
+    78.7,
+    61.7,
+    29.9
+   ]
+  }
+ },
+ {
+  "name": "Isha Patel",
+  "email": "isha.patel65@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 73.9,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 5,
+   "streakDays": 6,
+   "avgSessionMinutes": 35.3,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 2,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    158.5,
+    150.4,
+    149.0,
+    163.4,
+    151.1,
+    141.9,
+    161.3,
+    152.4,
+    139.7,
+    118.8,
+    88.0,
+    60.9
+   ]
+  }
+ },
+ {
+  "name": "Arjun Shetty",
+  "email": "arjun.shetty66@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 71.6,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 13,
+   "streakDays": 4,
+   "avgSessionMinutes": 20.6,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 7,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    128.7,
+    116.6,
+    125.5,
+    125.1,
+    123.3,
+    141.0,
+    131.4,
+    119.2,
+    126.0,
+    94.8,
+    72.5,
+    45.8
+   ]
+  }
+ },
+ {
+  "name": "Ananya Rao",
+  "email": "ananya.rao67@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 56.2,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 4,
+   "streakDays": 3,
+   "avgSessionMinutes": 14.1,
+   "daysSinceLastActive": 9,
+   "tutorQuestions": 1,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    81.0,
+    73.1,
+    83.1,
+    72.9,
+    70.6,
+    68.7,
+    48.1,
+    59.0,
+    47.9,
+    39.7,
+    20.3,
+    21.8
+   ]
+  }
+ },
+ {
+  "name": "Vihaan Gowda",
+  "email": "vihaan.gowda68@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 65.7,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 0,
+   "streakDays": 0,
+   "avgSessionMinutes": 15.2,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 2,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    88.7,
+    74.2,
+    68.0,
+    81.0,
+    81.6,
+    74.1,
+    80.9,
+    72.3,
+    71.0,
+    46.6,
+    36.9,
+    26.3
+   ]
+  }
+ },
+ {
+  "name": "Sara Menon",
+  "email": "sara.menon69@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 57.0,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 7,
+   "streakDays": 8,
+   "avgSessionMinutes": 30.8,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 6,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    140.1,
+    104.5,
+    110.2,
+    106.7,
+    123.2,
+    104.1,
+    111.0,
+    115.8,
+    106.5,
+    107.0,
+    112.1,
+    96.1
+   ]
+  }
+ },
+ {
+  "name": "Neel Sharma",
+  "email": "neel.sharma70@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 55.9,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 5,
+   "streakDays": 0,
+   "avgSessionMinutes": 19.9,
+   "daysSinceLastActive": 11,
+   "tutorQuestions": 3,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    62.7,
+    71.1,
+    74.9,
+    69.6,
+    51.9,
+    63.1,
+    73.8,
+    69.5,
+    61.3,
+    51.4,
+    64.7,
+    50.7
+   ]
+  }
+ },
+ {
+  "name": "Tara Iyer",
+  "email": "tara.iyer71@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 59.7,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 9,
+   "streakDays": 6,
+   "avgSessionMinutes": 26.6,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 7,
+   "hintRequests": 7,
+   "weeklyEngagement": [
+    114.1,
+    118.7,
+    142.1,
+    130.7,
+    141.0,
+    125.5,
+    140.6,
+    126.1,
+    112.5,
+    107.4,
+    70.7,
+    41.3
+   ]
+  }
+ },
+ {
+  "name": "Dev Reddy",
+  "email": "dev.reddy72@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 78.5,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 6,
+   "streakDays": 3,
+   "avgSessionMinutes": 26.8,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 5,
+   "hintRequests": 9,
+   "weeklyEngagement": [
+    115.7,
+    120.2,
+    129.5,
+    112.8,
+    100.7,
+    115.7,
+    119.0,
+    120.3,
+    132.8,
+    123.2,
+    128.5,
+    109.7
+   ]
+  }
+ },
+ {
+  "name": "Riya Kulkarni",
+  "email": "riya.kulkarni73@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 49.4,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 4,
+   "streakDays": 6,
+   "avgSessionMinutes": 39.7,
+   "daysSinceLastActive": 7,
+   "tutorQuestions": 6,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    129.9,
+    142.9,
+    130.3,
+    125.7,
+    125.4,
+    142.3,
+    115.8,
+    124.6,
+    131.0,
+    134.5,
+    123.3,
+    131.4
+   ]
+  }
+ },
+ {
+  "name": "Aditya Nair",
+  "email": "aditya.nair74@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 63.0,
+   "quizzesTaken": 11,
+   "lessonsCompleted": 8,
+   "streakDays": 5,
+   "avgSessionMinutes": 30.1,
+   "daysSinceLastActive": 6,
+   "tutorQuestions": 7,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    140.5,
+    146.4,
+    145.8,
+    137.6,
+    150.7,
+    161.6,
+    145.0,
+    154.2,
+    165.1,
+    149.7,
+    164.1,
+    153.6
+   ]
+  }
+ },
+ {
+  "name": "Kavya Patel",
+  "email": "kavya.patel75@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 65.2,
+   "quizzesTaken": 3,
+   "lessonsCompleted": 4,
+   "streakDays": 3,
+   "avgSessionMinutes": 14.6,
+   "daysSinceLastActive": 53,
+   "tutorQuestions": 2,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    91.6,
+    101.7,
+    97.1,
+    73.0,
+    80.9,
+    73.0,
+    71.1,
+    83.9,
+    53.5,
+    75.6,
+    62.8,
+    75.7
+   ]
+  }
+ },
+ {
+  "name": "Yash Shetty",
+  "email": "yash.shetty76@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 54.8,
+   "quizzesTaken": 2,
+   "lessonsCompleted": 9,
+   "streakDays": 4,
+   "avgSessionMinutes": 24.1,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 5,
+   "hintRequests": 7,
+   "weeklyEngagement": [
+    103.9,
+    94.8,
+    103.9,
+    108.0,
+    100.6,
+    104.6,
+    94.1,
+    77.5,
+    91.9,
+    70.9,
+    49.1,
+    30.9
+   ]
+  }
+ },
+ {
+  "name": "Nisha Rao",
+  "email": "nisha.rao77@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 52.6,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 7,
+   "streakDays": 4,
+   "avgSessionMinutes": 22.0,
+   "daysSinceLastActive": 12,
+   "tutorQuestions": 4,
+   "hintRequests": 7,
+   "weeklyEngagement": [
+    115.3,
+    100.1,
+    97.3,
+    102.2,
+    115.7,
+    89.6,
+    115.1,
+    96.5,
+    78.4,
+    77.7,
+    50.1,
+    28.1
+   ]
+  }
+ },
+ {
+  "name": "Karan Gowda",
+  "email": "karan.gowda78@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 53.5,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 2,
+   "streakDays": 3,
+   "avgSessionMinutes": 18.0,
+   "daysSinceLastActive": 36,
+   "tutorQuestions": 3,
+   "hintRequests": 9,
+   "weeklyEngagement": [
+    78.6,
+    89.9,
+    90.9,
+    73.1,
+    79.9,
+    81.3,
+    66.2,
+    74.6,
+    69.1,
+    62.5,
+    61.3,
+    65.3
+   ]
+  }
+ },
+ {
+  "name": "Pooja Menon",
+  "email": "pooja.menon79@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 53.0,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 3,
+   "streakDays": 2,
+   "avgSessionMinutes": 27.1,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 5,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    96.1,
+    89.3,
+    89.9,
+    104.5,
+    94.7,
+    100.6,
+    102.9,
+    96.0,
+    95.9,
+    54.2,
+    47.5,
+    26.4
+   ]
+  }
+ },
+ {
+  "name": "Aarav Sharma",
+  "email": "aarav.sharma80@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 63.8,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 9,
+   "streakDays": 3,
+   "avgSessionMinutes": 46.2,
+   "daysSinceLastActive": 8,
+   "tutorQuestions": 8,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    161.8,
+    162.2,
+    127.5,
+    139.3,
+    157.5,
+    160.7,
+    162.1,
+    155.9,
+    163.0,
+    166.9,
+    161.5,
+    174.5
+   ]
+  }
+ },
+ {
+  "name": "Diya Iyer",
+  "email": "diya.iyer81@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 81.4,
+   "quizzesTaken": 14,
+   "lessonsCompleted": 10,
+   "streakDays": 7,
+   "avgSessionMinutes": 27.5,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 6,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    130.1,
+    161.5,
+    147.3,
+    169.6,
+    160.2,
+    156.0,
+    171.1,
+    160.7,
+    163.1,
+    159.0,
+    176.9,
+    184.5
+   ]
+  }
+ },
+ {
+  "name": "Kabir Reddy",
+  "email": "kabir.reddy82@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 70.4,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 5,
+   "streakDays": 5,
+   "avgSessionMinutes": 37.1,
+   "daysSinceLastActive": 6,
+   "tutorQuestions": 10,
+   "hintRequests": 8,
+   "weeklyEngagement": [
+    159.0,
+    149.6,
+    163.7,
+    155.6,
+    156.7,
+    165.6,
+    172.6,
+    160.8,
+    164.0,
+    167.1,
+    171.7,
+    164.1
+   ]
+  }
+ },
+ {
+  "name": "Meera Kulkarni",
+  "email": "meera.kulkarni83@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 41.9,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 4,
+   "streakDays": 2,
+   "avgSessionMinutes": 15.2,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 1,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    70.2,
+    53.1,
+    58.9,
+    43.1,
+    52.1,
+    49.6,
+    38.6,
+    60.1,
+    34.9,
+    35.1,
+    20.3,
+    6.9
+   ]
+  }
+ },
+ {
+  "name": "Rohan Nair",
+  "email": "rohan.nair84@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 52.4,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 4,
+   "streakDays": 7,
+   "avgSessionMinutes": 31.7,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 5,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    125.2,
+    134.5,
+    131.8,
+    132.8,
+    130.5,
+    116.4,
+    133.3,
+    114.4,
+    141.4,
+    131.5,
+    132.7,
+    138.8
+   ]
+  }
+ },
+ {
+  "name": "Isha Patel",
+  "email": "isha.patel85@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 42.0,
+   "quizzesTaken": 2,
+   "lessonsCompleted": 6,
+   "streakDays": 0,
+   "avgSessionMinutes": 12.2,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 3,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    56.0,
+    35.7,
+    29.3,
+    32.8,
+    19.8,
+    27.3,
+    49.7,
+    20.0,
+    28.9,
+    7.0,
+    11.8,
+    4.5
+   ]
+  }
+ },
+ {
+  "name": "Arjun Shetty",
+  "email": "arjun.shetty86@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 69.3,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 4,
+   "streakDays": 2,
+   "avgSessionMinutes": 21.9,
+   "daysSinceLastActive": 29,
+   "tutorQuestions": 4,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    95.0,
+    100.5,
+    111.5,
+    95.1,
+    93.5,
+    81.7,
+    96.5,
+    87.4,
+    83.3,
+    59.3,
+    52.0,
+    21.1
+   ]
+  }
+ },
+ {
+  "name": "Ananya Rao",
+  "email": "ananya.rao87@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 59.6,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 6,
+   "streakDays": 3,
+   "avgSessionMinutes": 30.2,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 0,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    93.7,
+    104.7,
+    91.7,
+    86.5,
+    91.0,
+    79.1,
+    93.3,
+    115.8,
+    102.1,
+    78.8,
+    80.4,
+    84.3
+   ]
+  }
+ },
+ {
+  "name": "Vihaan Gowda",
+  "email": "vihaan.gowda88@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 67.2,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 5,
+   "streakDays": 1,
+   "avgSessionMinutes": 25.0,
+   "daysSinceLastActive": 29,
+   "tutorQuestions": 1,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    121.3,
+    103.1,
+    104.4,
+    120.3,
+    120.1,
+    107.8,
+    100.4,
+    96.2,
+    89.7,
+    60.5,
+    59.2,
+    33.4
+   ]
+  }
+ },
+ {
+  "name": "Sara Menon",
+  "email": "sara.menon89@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 80.2,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 10,
+   "streakDays": 1,
+   "avgSessionMinutes": 35.8,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 6,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    150.9,
+    166.8,
+    161.9,
+    140.7,
+    163.0,
+    167.9,
+    151.0,
+    151.0,
+    161.4,
+    148.6,
+    181.4,
+    144.7
+   ]
+  }
+ },
+ {
+  "name": "Neel Sharma",
+  "email": "neel.sharma90@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 74.9,
+   "quizzesTaken": 2,
+   "lessonsCompleted": 3,
+   "streakDays": 2,
+   "avgSessionMinutes": 25.6,
+   "daysSinceLastActive": 9,
+   "tutorQuestions": 5,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    91.4,
+    99.3,
+    99.3,
+    102.8,
+    103.5,
+    98.2,
+    111.3,
+    78.1,
+    99.0,
+    91.4,
+    99.5,
+    99.9
+   ]
+  }
+ },
+ {
+  "name": "Tara Iyer",
+  "email": "tara.iyer91@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 53.0,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 5,
+   "streakDays": 3,
+   "avgSessionMinutes": 18.9,
+   "daysSinceLastActive": 8,
+   "tutorQuestions": 0,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    64.1,
+    64.7,
+    76.9,
+    70.3,
+    57.9,
+    83.0,
+    83.6,
+    43.8,
+    50.8,
+    53.6,
+    29.7,
+    16.5
+   ]
+  }
+ },
+ {
+  "name": "Dev Reddy",
+  "email": "dev.reddy92@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 70.9,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 9,
+   "streakDays": 9,
+   "avgSessionMinutes": 40.0,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 11,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    162.0,
+    161.7,
+    168.1,
+    167.8,
+    183.9,
+    175.5,
+    178.2,
+    173.7,
+    188.3,
+    182.9,
+    193.1,
+    208.5
+   ]
+  }
+ },
+ {
+  "name": "Riya Kulkarni",
+  "email": "riya.kulkarni93@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 62.4,
+   "quizzesTaken": 13,
+   "lessonsCompleted": 11,
+   "streakDays": 6,
+   "avgSessionMinutes": 41.7,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 6,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    146.4,
+    149.7,
+    150.1,
+    149.0,
+    149.0,
+    149.0,
+    161.6,
+    145.0,
+    146.5,
+    108.1,
+    76.4,
+    50.1
+   ]
+  }
+ },
+ {
+  "name": "Aditya Nair",
+  "email": "aditya.nair94@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 57.5,
+   "quizzesTaken": 1,
+   "lessonsCompleted": 2,
+   "streakDays": 1,
+   "avgSessionMinutes": 15.0,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 2,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    53.3,
+    58.9,
+    47.2,
+    63.0,
+    40.9,
+    23.1,
+    35.7,
+    20.1,
+    36.9,
+    45.0,
+    38.1,
+    15.4
+   ]
+  }
+ },
+ {
+  "name": "Kavya Patel",
+  "email": "kavya.patel95@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 39.7,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 10,
+   "streakDays": 4,
+   "avgSessionMinutes": 26.0,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 4,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    92.4,
+    117.2,
+    102.0,
+    98.3,
+    108.3,
+    121.7,
+    109.5,
+    97.4,
+    99.0,
+    101.0,
+    88.2,
+    83.1
+   ]
+  }
+ },
+ {
+  "name": "Yash Shetty",
+  "email": "yash.shetty96@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 75.2,
+   "quizzesTaken": 10,
+   "lessonsCompleted": 6,
+   "streakDays": 5,
+   "avgSessionMinutes": 36.1,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 4,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    146.2,
+    138.2,
+    149.1,
+    152.8,
+    177.2,
+    147.4,
+    156.7,
+    158.3,
+    166.4,
+    174.5,
+    161.2,
+    159.9
+   ]
+  }
+ },
+ {
+  "name": "Nisha Rao",
+  "email": "nisha.rao97@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 54.7,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 1,
+   "streakDays": 2,
+   "avgSessionMinutes": 14.5,
+   "daysSinceLastActive": 9,
+   "tutorQuestions": 4,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    65.7,
+    71.3,
+    84.3,
+    77.8,
+    65.6,
+    70.5,
+    72.9,
+    76.1,
+    54.3,
+    44.2,
+    23.8,
+    16.8
+   ]
+  }
+ },
+ {
+  "name": "Karan Gowda",
+  "email": "karan.gowda98@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 52.6,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 6,
+   "streakDays": 0,
+   "avgSessionMinutes": 14.7,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 1,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    94.7,
+    54.9,
+    71.6,
+    75.3,
+    67.6,
+    61.5,
+    67.1,
+    65.9,
+    63.3,
+    43.6,
+    59.1,
+    50.2
+   ]
+  }
+ },
+ {
+  "name": "Pooja Menon",
+  "email": "pooja.menon99@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 85.7,
+   "quizzesTaken": 17,
+   "lessonsCompleted": 7,
+   "streakDays": 5,
+   "avgSessionMinutes": 33.9,
+   "daysSinceLastActive": 3,
+   "tutorQuestions": 6,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    155.2,
+    165.9,
+    172.9,
+    178.4,
+    167.4,
+    184.5,
+    189.8,
+    192.4,
+    197.8,
+    185.4,
+    188.0,
+    200.9
+   ]
+  }
+ },
+ {
+  "name": "Aarav Sharma",
+  "email": "aarav.sharma100@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 83.2,
+   "quizzesTaken": 15,
+   "lessonsCompleted": 10,
+   "streakDays": 14,
+   "avgSessionMinutes": 43.7,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 7,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    156.6,
+    175.8,
+    171.8,
+    176.9,
+    166.6,
+    178.5,
+    190.7,
+    203.2,
+    207.6,
+    200.4,
+    202.7,
+    199.8
+   ]
+  }
+ },
+ {
+  "name": "Diya Iyer",
+  "email": "diya.iyer101@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 52.6,
+   "quizzesTaken": 13,
+   "lessonsCompleted": 3,
+   "streakDays": 9,
+   "avgSessionMinutes": 29.4,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 7,
+   "hintRequests": 5,
+   "weeklyEngagement": [
+    138.9,
+    133.8,
+    143.8,
+    156.7,
+    140.3,
+    127.0,
+    134.8,
+    130.3,
+    134.3,
+    160.7,
+    151.4,
+    135.3
+   ]
+  }
+ },
+ {
+  "name": "Kabir Reddy",
+  "email": "kabir.reddy102@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 58.5,
+   "quizzesTaken": 7,
+   "lessonsCompleted": 5,
+   "streakDays": 1,
+   "avgSessionMinutes": 13.8,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 4,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    87.2,
+    91.6,
+    73.8,
+    68.9,
+    70.6,
+    75.2,
+    77.1,
+    80.8,
+    68.0,
+    52.4,
+    38.5,
+    21.8
+   ]
+  }
+ },
+ {
+  "name": "Meera Kulkarni",
+  "email": "meera.kulkarni103@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 82.8,
+   "quizzesTaken": 16,
+   "lessonsCompleted": 6,
+   "streakDays": 7,
+   "avgSessionMinutes": 38.0,
+   "daysSinceLastActive": 8,
+   "tutorQuestions": 7,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    130.9,
+    147.0,
+    153.5,
+    148.6,
+    163.6,
+    153.0,
+    149.4,
+    175.2,
+    169.4,
+    167.0,
+    176.2,
+    179.6
+   ]
+  }
+ },
+ {
+  "name": "Rohan Nair",
+  "email": "rohan.nair104@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 64.1,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 5,
+   "streakDays": 5,
+   "avgSessionMinutes": 30.2,
+   "daysSinceLastActive": 6,
+   "tutorQuestions": 5,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    111.5,
+    83.4,
+    101.1,
+    103.2,
+    97.8,
+    109.6,
+    119.4,
+    102.5,
+    82.1,
+    86.1,
+    50.8,
+    29.9
+   ]
+  }
+ },
+ {
+  "name": "Isha Patel",
+  "email": "isha.patel105@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 50.6,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 1,
+   "streakDays": 0,
+   "avgSessionMinutes": 12.1,
+   "daysSinceLastActive": 6,
+   "tutorQuestions": 3,
+   "hintRequests": 1,
+   "weeklyEngagement": [
+    93.2,
+    93.9,
+    81.5,
+    95.4,
+    81.5,
+    76.1,
+    86.0,
+    90.8,
+    64.8,
+    56.9,
+    39.1,
+    33.8
+   ]
+  }
+ },
+ {
+  "name": "Arjun Shetty",
+  "email": "arjun.shetty106@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 61.3,
+   "quizzesTaken": 6,
+   "lessonsCompleted": 3,
+   "streakDays": 1,
+   "avgSessionMinutes": 35.9,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 5,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    95.9,
+    116.4,
+    101.7,
+    100.5,
+    108.6,
+    109.9,
+    113.2,
+    103.5,
+    80.3,
+    63.5,
+    51.6,
+    33.0
+   ]
+  }
+ },
+ {
+  "name": "Ananya Rao",
+  "email": "ananya.rao107@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 34.3,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 2,
+   "streakDays": 0,
+   "avgSessionMinutes": 15.0,
+   "daysSinceLastActive": 42,
+   "tutorQuestions": 0,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    73.3,
+    60.6,
+    64.2,
+    65.8,
+    49.4,
+    30.0,
+    30.2,
+    24.7,
+    44.6,
+    16.8,
+    21.2,
+    10.5
+   ]
+  }
+ },
+ {
+  "name": "Vihaan Gowda",
+  "email": "vihaan.gowda108@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 75.4,
+   "quizzesTaken": 13,
+   "lessonsCompleted": 4,
+   "streakDays": 8,
+   "avgSessionMinutes": 34.1,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 4,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    156.0,
+    150.5,
+    141.1,
+    141.7,
+    146.2,
+    148.8,
+    143.4,
+    150.0,
+    168.1,
+    136.6,
+    157.9,
+    147.8
+   ]
+  }
+ },
+ {
+  "name": "Sara Menon",
+  "email": "sara.menon109@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 42.6,
+   "quizzesTaken": 13,
+   "lessonsCompleted": 6,
+   "streakDays": 3,
+   "avgSessionMinutes": 36.0,
+   "daysSinceLastActive": 5,
+   "tutorQuestions": 9,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    120.4,
+    127.4,
+    118.9,
+    127.7,
+    104.5,
+    132.0,
+    115.4,
+    128.1,
+    124.2,
+    97.0,
+    115.8,
+    126.0
+   ]
+  }
+ },
+ {
+  "name": "Neel Sharma",
+  "email": "neel.sharma110@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 50.3,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 2,
+   "streakDays": 4,
+   "avgSessionMinutes": 22.8,
+   "daysSinceLastActive": 0,
+   "tutorQuestions": 2,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    105.0,
+    91.1,
+    89.7,
+    71.8,
+    99.1,
+    101.6,
+    82.7,
+    79.0,
+    63.9,
+    87.7,
+    104.7,
+    83.7
+   ]
+  }
+ },
+ {
+  "name": "Tara Iyer",
+  "email": "tara.iyer111@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 64.5,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 10,
+   "streakDays": 3,
+   "avgSessionMinutes": 34.6,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 5,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    165.4,
+    160.6,
+    147.8,
+    173.5,
+    150.2,
+    162.9,
+    170.2,
+    178.7,
+    176.5,
+    178.6,
+    169.6,
+    166.8
+   ]
+  }
+ },
+ {
+  "name": "Dev Reddy",
+  "email": "dev.reddy112@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 60.7,
+   "quizzesTaken": 14,
+   "lessonsCompleted": 6,
+   "streakDays": 5,
+   "avgSessionMinutes": 47.6,
+   "daysSinceLastActive": 4,
+   "tutorQuestions": 7,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    138.4,
+    132.3,
+    127.9,
+    129.9,
+    139.2,
+    127.2,
+    133.8,
+    132.5,
+    152.3,
+    156.1,
+    173.7,
+    140.3
+   ]
+  }
+ },
+ {
+  "name": "Riya Kulkarni",
+  "email": "riya.kulkarni113@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 63.0,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 1,
+   "streakDays": 2,
+   "avgSessionMinutes": 14.5,
+   "daysSinceLastActive": 17,
+   "tutorQuestions": 2,
+   "hintRequests": 8,
+   "weeklyEngagement": [
+    77.2,
+    91.6,
+    78.8,
+    76.2,
+    95.1,
+    73.1,
+    63.5,
+    60.4,
+    75.4,
+    73.6,
+    55.3,
+    57.7
+   ]
+  }
+ },
+ {
+  "name": "Aditya Nair",
+  "email": "aditya.nair114@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 76.1,
+   "quizzesTaken": 11,
+   "lessonsCompleted": 4,
+   "streakDays": 10,
+   "avgSessionMinutes": 37.8,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 9,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    158.8,
+    161.8,
+    152.0,
+    167.2,
+    169.2,
+    148.1,
+    165.3,
+    175.0,
+    167.6,
+    154.5,
+    175.5,
+    188.4
+   ]
+  }
+ },
+ {
+  "name": "Kavya Patel",
+  "email": "kavya.patel115@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 56.8,
+   "quizzesTaken": 4,
+   "lessonsCompleted": 7,
+   "streakDays": 0,
+   "avgSessionMinutes": 25.1,
+   "daysSinceLastActive": 7,
+   "tutorQuestions": 3,
+   "hintRequests": 6,
+   "weeklyEngagement": [
+    95.7,
+    56.3,
+    102.6,
+    63.5,
+    82.6,
+    83.6,
+    79.4,
+    69.4,
+    46.7,
+    47.8,
+    27.6,
+    11.3
+   ]
+  }
+ },
+ {
+  "name": "Yash Shetty",
+  "email": "yash.shetty116@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 66.8,
+   "quizzesTaken": 9,
+   "lessonsCompleted": 4,
+   "streakDays": 3,
+   "avgSessionMinutes": 21.4,
+   "daysSinceLastActive": 31,
+   "tutorQuestions": 6,
+   "hintRequests": 3,
+   "weeklyEngagement": [
+    139.4,
+    118.3,
+    129.4,
+    102.2,
+    126.1,
+    127.4,
+    127.1,
+    111.4,
+    99.6,
+    110.0,
+    89.8,
+    94.8
+   ]
+  }
+ },
+ {
+  "name": "Nisha Rao",
+  "email": "nisha.rao117@example.com",
+  "track": "python",
+  "stats": {
+   "avgQuizScore": 59.7,
+   "quizzesTaken": 14,
+   "lessonsCompleted": 14,
+   "streakDays": 7,
+   "avgSessionMinutes": 35.4,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 4,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    144.9,
+    136.0,
+    146.2,
+    148.7,
+    171.1,
+    166.7,
+    155.2,
+    169.7,
+    151.7,
+    158.1,
+    172.5,
+    152.9
+   ]
+  }
+ },
+ {
+  "name": "Karan Gowda",
+  "email": "karan.gowda118@example.com",
+  "track": "web",
+  "stats": {
+   "avgQuizScore": 64.9,
+   "quizzesTaken": 5,
+   "lessonsCompleted": 4,
+   "streakDays": 1,
+   "avgSessionMinutes": 27.8,
+   "daysSinceLastActive": 1,
+   "tutorQuestions": 2,
+   "hintRequests": 4,
+   "weeklyEngagement": [
+    99.0,
+    88.1,
+    102.1,
+    116.7,
+    92.4,
+    101.7,
+    90.0,
+    87.1,
+    73.4,
+    75.8,
+    59.9,
+    32.1
+   ]
+  }
+ },
+ {
+  "name": "Pooja Menon",
+  "email": "pooja.menon119@example.com",
+  "track": "ml",
+  "stats": {
+   "avgQuizScore": 65.5,
+   "quizzesTaken": 8,
+   "lessonsCompleted": 11,
+   "streakDays": 8,
+   "avgSessionMinutes": 49.8,
+   "daysSinceLastActive": 2,
+   "tutorQuestions": 7,
+   "hintRequests": 2,
+   "weeklyEngagement": [
+    134.5,
+    150.5,
+    141.9,
+    155.1,
+    151.8,
+    153.5,
+    158.6,
+    148.5,
+    152.1,
+    140.7,
+    155.3,
+    147.3
+   ]
+  }
+ }
+]

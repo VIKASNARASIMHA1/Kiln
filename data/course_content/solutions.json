@@ -1,0 +1,13 @@
+{
+ "python-sum-of-evens": "def sum_of_evens(numbers):\n    return sum(n for n in numbers if n % 2 == 0)\n",
+ "python-fizzbuzz": "def fizzbuzz(n):\n    out = []\n    for i in range(1, n + 1):\n        if i % 15 == 0:\n            out.append('FizzBuzz')\n        elif i % 3 == 0:\n            out.append('Fizz')\n        elif i % 5 == 0:\n            out.append('Buzz')\n        else:\n            out.append(str(i))\n    return out\n",
+ "python-word-count": "def word_count(text):\n    counts = {}\n    for w in text.lower().split():\n        counts[w] = counts.get(w, 0) + 1\n    return counts\n",
+ "python-squares-of-odds": "def squares_of_odds(numbers):\n    return [n * n for n in numbers if n % 2 == 1]\n",
+ "python-parse-int": "def parse_int(value):\n    try:\n        return int(value)\n    except (ValueError, TypeError):\n        return None\n",
+ "web-slugify": "import re\n\ndef slugify(title):\n    return re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')\n",
+ "web-status-category": "def status_category(code):\n    names = {1: 'informational', 2: 'success', 3: 'redirect', 4: 'client error', 5: 'server error'}\n    return names.get(code // 100, 'unknown') if 100 <= code < 600 else 'unknown'\n",
+ "web-parse-query-string": "def parse_query_string(query):\n    out = {}\n    for part in query.split('&'):\n        if not part:\n            continue\n        key, _, value = part.partition('=')\n        out[key] = value\n    return out\n",
+ "ml-mean-squared-error": "def mean_squared_error(y_true, y_pred):\n    return sum((t - p) ** 2 for t, p in zip(y_true, y_pred)) / len(y_true)\n",
+ "ml-precision-recall": "def precision_recall(y_true, y_pred):\n    tp = sum(1 for t, p in zip(y_true, y_pred) if t == 1 and p == 1)\n    fp = sum(1 for t, p in zip(y_true, y_pred) if t == 0 and p == 1)\n    fn = sum(1 for t, p in zip(y_true, y_pred) if t == 1 and p == 0)\n    precision = tp / (tp + fp) if tp + fp else 0.0\n    recall = tp / (tp + fn) if tp + fn else 0.0\n    return precision, recall\n",
+ "ml-cosine-similarity": "import math\n\ndef cosine_similarity(a, b):\n    na = math.sqrt(sum(x * x for x in a))\n    nb = math.sqrt(sum(x * x for x in b))\n    if na == 0 or nb == 0:\n        return 0.0\n    return sum(x * y for x, y in zip(a, b)) / (na * nb)\n"
+}

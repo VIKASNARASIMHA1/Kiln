@@ -1,0 +1,37 @@
+{
+  "name": "kiln-server",
+  "version": "1.0.0",
+  "description": "Kiln API",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/scripts/seed.js",
+    "ingest": "node src/scripts/ingest.js",
+    "test": "node --test --test-concurrency=1",
+    "eval:rag": "node src/scripts/evaluate_rag.js",
+    "check:llm": "node src/scripts/check_llm.js",
+    "migrate": "node src/scripts/migrate.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.13.1",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
